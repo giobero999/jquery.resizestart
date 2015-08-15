@@ -208,7 +208,7 @@ $(selector).on('resizestart', 1000, function() {
 						<section class="article" id="options">
 							<h3 class="article-title">Options</h3>
 							<p class="article-lead">All plugin &amp; event options.</p>
-							<div class="overflow-container">
+							<div class="overflow-container hidden-small">
 								<table class="table-striped">
 									<thead>
 										<tr>
@@ -220,12 +220,32 @@ $(selector).on('resizestart', 1000, function() {
 									</thead>
 									<tbody>
 										<tr>
-											<td>
-												<code>delay</code>
-											</td>
+											<td><code>delay</code></td>
 											<td>integer/<br>object</td>
-											<td>250</td>
-											<td>The amount of time, in millisecond, to wait after the last <em>resize</em> event was fired before triggering the event.</td>
+											<td>0</td>
+											<td>The amount of time, in millisecond, to wait after the first <em>resize</em> event is fired before triggering the event.</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="overflow-container visible-small">
+								<table class="table-striped">
+									<tbody>
+										<tr>
+											<th>Option</th>
+											<td><code>delay</code></td>
+										</tr>
+										<tr>
+											<th>Type</th>
+											<td>integer/<br>object</td>
+										</tr>
+										<tr>
+											<th>Default</th>
+											<td>0</td>
+										</tr>
+										<tr>
+											<th>Description</th>
+											<td>The amount of time, in millisecond, to wait after the first <em>resize</em> event is fired before triggering the event.</td>
 										</tr>
 									</tbody>
 								</table>
