@@ -248,6 +248,11 @@ module.exports = function(grunt) {
 			},
 			all : ['js/*.js']
 		},
+		shell: {
+			build: {
+				command: 'curl -LG http://github.dev/jquery.resizestart/scripts/build.php',
+			}
+		}
 	});
 
 	// Custom Tasks
@@ -262,7 +267,7 @@ module.exports = function(grunt) {
 		['coffee', 'concat', 'uglify', 'jsbeautifier:js']
 	);
 
-	grunt.registerTask( 'build', [ 'build-css', 'build-js' ] );
+	grunt.registerTask( 'build', [ 'build-css', 'build-js', 'shell' ] );
 	grunt.registerTask( 'dev', [ 'less', 'coffee' ] );
 	grunt.registerTask( 'default', [ 'watch' ] );
 

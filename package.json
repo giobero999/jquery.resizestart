@@ -2,7 +2,7 @@
   "name": "jquery.resizestart",
   "title": "jquery resizestart",
   "description": "A jQuery plugin that allows for window resize-start event handling.",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "homepage": "http://312development.com",
   "author": {
     "name": "Erik Nielsen",
@@ -37,6 +37,7 @@
     "grunt-csscss": "^0.6.2",
     "grunt-jsbeautifier": "^0.2.10",
     "grunt-newer": "^1.1.0",
+    "grunt-shell": "^1.1.2",
     "jshint-html-reporter": "^0.2.4",
     "load-grunt-tasks": "^3.1.0"
   }
