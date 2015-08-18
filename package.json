@@ -2,7 +2,7 @@
   "name": "jquery.resizestart",
   "title": "jquery resizestart",
   "description": "A jQuery plugin that allows for window resize-start event handling.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://312development.com",
   "author": {
     "name": "Erik Nielsen",
