@@ -78,8 +78,9 @@ do (_c = Clique)->
 			setActiveNavbar y
 		fixedNavbar y
 
-	_c.$win.on 'resize', ->
-		_c.$('.demo-output pre').text 'Resizing'
-
-	_c.$win.on 'resizeend', ->
-		_c.$('.demo-output pre').text 'Resizing Complete!'
+	_c.$win.on 'resizestart', ->
+		_c.$win.one 'resizeend', ->
+			setTimeout ->
+				_c.$('.demo-output pre').text 'No event'
+			, 1500
+		_c.$('.demo-output pre').text 'Resizing Started!'
