@@ -1,0 +1,55 @@
+CACHE MANIFEST
+# Modified: Wed, 19 Aug 2015 22:50:21 -0500
+
+# CSS
+/jquery.resizestart/css/clique.min.css
+/jquery.resizestart/css/main.min.css
+/jquery.resizestart/css/prism.min.css
+
+# JS
+/jquery.resizestart/js/core/browser.min.js
+/jquery.resizestart/js/core/core.min.js
+/jquery.resizestart/js/functions.min.js
+/jquery.resizestart/js/jquery.resizestart.min.js
+/jquery.resizestart/js/lib/jquery.min.js
+/jquery.resizestart/js/prism.min.js
+
+# IMAGES
+/jquery.resizestart/images/icons/android-chrome-144x144.png
+/jquery.resizestart/images/icons/android-chrome-192x192.png
+/jquery.resizestart/images/icons/android-chrome-36x36.png
+/jquery.resizestart/images/icons/android-chrome-48x48.png
+/jquery.resizestart/images/icons/android-chrome-72x72.png
+/jquery.resizestart/images/icons/android-chrome-96x96.png
+/jquery.resizestart/images/icons/apple-touch-icon-114x114.png
+/jquery.resizestart/images/icons/apple-touch-icon-120x120.png
+/jquery.resizestart/images/icons/apple-touch-icon-144x144.png
+/jquery.resizestart/images/icons/apple-touch-icon-152x152.png
+/jquery.resizestart/images/icons/apple-touch-icon-180x180.png
+/jquery.resizestart/images/icons/apple-touch-icon-57x57.png
+/jquery.resizestart/images/icons/apple-touch-icon-60x60.png
+/jquery.resizestart/images/icons/apple-touch-icon-72x72.png
+/jquery.resizestart/images/icons/apple-touch-icon-76x76.png
+/jquery.resizestart/images/icons/apple-touch-icon-precomposed.png
+/jquery.resizestart/images/icons/apple-touch-icon.png
+/jquery.resizestart/images/icons/favicon-16x16.png
+/jquery.resizestart/images/icons/favicon-32x32.png
+/jquery.resizestart/images/icons/favicon-96x96.png
+/jquery.resizestart/images/icons/favicon.ico
+/jquery.resizestart/images/icons/mstile-144x144.png
+/jquery.resizestart/images/icons/mstile-150x150.png
+/jquery.resizestart/images/icons/mstile-310x150.png
+/jquery.resizestart/images/icons/mstile-310x310.png
+/jquery.resizestart/images/icons/mstile-70x70.png
+/jquery.resizestart/images/og-image.jpg
+/jquery.resizestart/images/skyline-lite.png
+
+# FONTS
+/jquery.resizestart/fonts/Brandon_bld.ttf
+/jquery.resizestart/fonts/Brandon_reg.ttf
+/jquery.resizestart/fonts/icomoon.ttf
+/jquery.resizestart/fonts/Proxima-Nova-Bold.ttf
+/jquery.resizestart/fonts/ProximaNova-Regular.ttf
+
+NETWORK:
+*
